@@ -1,0 +1,11 @@
+{
+  "name": "build-project",
+  "version": "0.0.0",
+  "author": "Константин Безпалов",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaptor2/build-project.git"
+  },
+  "scripts": {}
+}
