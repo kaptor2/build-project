@@ -1,3 +1,5 @@
+import Styled from './App.styles'
+
 export const App: React.FC = () => {
-    return <h1>TEXT</h1>
+    return <Styled.Title>TEXT</Styled.Title>
 }
