@@ -11,7 +11,8 @@
     "start": "webpack serve --config webpack/webpack.config.js --env env=dev",
     "storybook": "webpack serve --config webpack/webpack.config.js --env env=storybook",
     "build": "webpack --config webpack/webpack.config.js --env env=prod",
-    "lint": "eslint --fix \"./src/**/*.{ts,tsx}\""
+    "lint": "eslint --fix \"./src/**/*.{ts,tsx}\"",
+    "format": "prettier --write \"./src/**/*.{ts,tsx}\""
   },
   "dependencies": {
     "@emotion/react": "11.7.0",
