@@ -7,8 +7,8 @@ module.exports = {
     devtool: 'cheap-module-source-map',
     plugins: [
         new webpack.DefinePlugin({
-            'process.env.STAND': JSON.stringify('dev')
+            'process.env.STAND': JSON.stringify('dev'),
         }),
         new ReactRefreshWebpackPlugin(),
-    ]
-}
+    ],
+};
