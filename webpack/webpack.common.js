@@ -20,8 +20,9 @@ module.exports = {
         ],
     },
     output: {
-        path: path.resolve(__dirname, '..', './build'),
         filename: 'bundle.js',
+        path: path.resolve(__dirname, '..', './build'),
+        clean: true,
     },
     plugins: [
         new HtmlWebpackPlugin({
